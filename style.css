@@ -126,6 +126,7 @@ body {
   #twitter, #linkedin, #gmail, #instagram{
     margin-top: 30px;
     float: left;
+    margin-block-start: auto;
   }
   
   @media screen and (max-width: 480px) {
@@ -138,7 +139,7 @@ body {
     .skillscontainer {
       margin-top: 7%;
       margin-bottom: 12%;
-      height: 1700px;
+      height: 1200px;
     }
     .row{
       width: 90vw;
@@ -149,13 +150,17 @@ body {
     #Projects{
       margin-left: 20px !important;
     }
+    .h-100{
+      height: 70% !important;
+    }
     .mycol {
-      top: 50%;
-      left: 50%;
-      text-align: center;
-      transition: 0.5s;
-      margin-top: 20px;
-      width: 370px;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transition: 0.5s;
+    margin-top: 20px;
+    width: 317px;
+    margin-left: 31px;
     }
     #projectlist{
       margin: 10px 50px 10px 20px;
@@ -164,7 +169,7 @@ body {
       margin-left: 20px;
     }
     .logos img,a{
-      margin-left: 5px;
+      margin-left: 37px;
     }
     #contactlist{
       margin-left: 20px;
