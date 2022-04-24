@@ -75,17 +75,17 @@ body {
   }
   
   .row :hover {
-    background-color: rgb(23, 91, 118);
+    background-color: rgb(209, 213, 215);
     /* For browsers that do not support gradients */
-    background-image: linear-gradient(to bottom right, #43cea2 , #185a9d);
+    background-image: linear-gradient(to bottom right, #e8dbfc , #f8f9d2);
     transform: scale(1.1);
-    color: white;
+    color: rgb(0, 0, 0);
   }
   
-  #projectlist, #contactlist{
+  #projectlist{
     margin: 30px 400px 30px 100px;
   }
-  #Projects{
+  #Projects, #Contact{
       margin-left: 100px;
   }
   
@@ -95,7 +95,7 @@ body {
   }
   #logos{
     display:unset;
-  
+    margin-left: 30px;
   }
   .static {
     position:absolute;
@@ -112,18 +112,20 @@ body {
   .logos img{
     margin-left: 50px;
   }
-  #Contact{
-    margin-left: 150px;
-  }
   .footer{
     background-color: rgb(45, 32, 32);
     color: aliceblue;
     padding: 20px 35%;
     text-align-last: center;
+    margin-top:100px;
   }
   .row{
     width: 1500px;
     margin-left: 8px;
+  }
+  #twitter, #linkedin, #gmail, #instagram{
+    margin-top: 30px;
+    float: left;
   }
   
   @media screen and (max-width: 480px) {
@@ -132,7 +134,6 @@ body {
       height: 100%;
       margin: 0;
       padding: 0;
-      overflow-x: hidden;
     }
     .skillscontainer {
       margin-top: 7%;
@@ -144,6 +145,9 @@ body {
     }
     h2{
       margin-left: 20px;
+    }
+    #Projects{
+      margin-left: 20px !important;
     }
     .mycol {
       top: 50%;
@@ -165,7 +169,10 @@ body {
     #contactlist{
       margin-left: 20px;
     }
-    .logos a{
-      padding-left: 64px;
+    .footer{
+      margin-top: 270px;
+    }
+    #align{
+      margin-left: 15px;
     }
   }
