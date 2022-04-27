@@ -74,7 +74,7 @@ body {
     margin-bottom: 12%;
   }
   
-  .row :hover {
+  .effect :hover {
     background-color: rgb(209, 213, 215);
     /* For browsers that do not support gradients */
     background-image: linear-gradient(to bottom right, #e8dbfc , #f8f9d2);
@@ -125,8 +125,18 @@ body {
   }
   #twitter, #linkedin, #gmail, #instagram{
     margin-top: 30px;
+    margin-left: 40px;
     float: left;
     margin-block-start: auto;
+  }
+  .disablehover{
+    height: 450px;
+  }
+  .cardmargin{
+    margin: 100px;
+  }
+  .sizing{
+    width: 950px;
   }
   
   @media screen and (max-width: 480px) {
@@ -179,5 +189,23 @@ body {
     }
     #align{
       margin-left: 15px;
+    }
+    .disablehover{
+      height: 750px;
+      margin-left: 0px;
+    }
+    .cardmargin{
+      margin-bottom: 20px;
+      margin-left: 0px;
+      margin-top: 20px;
+    }
+    .disablehover a{
+      margin-left: 8px;
+    }
+    #twitter, #linkedin, #gmail, #instagram{
+      margin-top: 30px;
+      margin-left: -37px;
+      float: left;
+      margin-block-start: auto;
     }
   }
