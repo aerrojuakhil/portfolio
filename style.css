@@ -1,6 +1,8 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@500&display=swap');
 body {
     position: relative;
+    font-family: 'Domine', serif;
   }
   
   img {
@@ -32,6 +34,9 @@ body {
   #Contact {
     padding-top: 60px;
   }
+  #contactlist a{
+    text-decoration: none;
+  }
   
   #aboutcontainer {
     padding-left: 5%;
@@ -42,8 +47,9 @@ body {
   }
   
   #aboutext {
-    font-size: 2vw;
+    font-size: 2.5vw;
     margin: auto;
+    font-family: 'Dancing Script', cursive;
   }
   
   .mycol {
@@ -54,6 +60,7 @@ body {
     transition: 0.5s;
     margin-top: 20px;
     height: 200px;
+    width: 335px;
   }
   
   #heading {
@@ -83,7 +90,7 @@ body {
   }
   
   #projectlist{
-    margin: 30px 400px 30px 100px;
+    margin: 30px 10vw 30px 100px;
   }
   #Projects, #Contact{
       margin-left: 100px;
@@ -119,10 +126,6 @@ body {
     text-align-last: center;
     margin-top:100px;
   }
-  .row{
-    width: 1500px;
-    margin-left: 8px;
-  }
   #twitter, #linkedin, #gmail, #instagram{
     margin-top: 30px;
     margin-left: 40px;
@@ -136,7 +139,10 @@ body {
     margin: 100px;
   }
   .sizing{
-    width: 950px;
+    width: 830px;
+  }
+  .contactlogos{
+    height: auto;
   }
   
   @media screen and (max-width: 480px) {
@@ -185,7 +191,7 @@ body {
       margin-left: 20px;
     }
     .footer{
-      margin-top: 270px;
+      margin-top: 30px;
     }
     #align{
       margin-left: 15px;
@@ -208,4 +214,35 @@ body {
       float: left;
       margin-block-start: auto;
     }
+    .myimage{
+      justify-content: center;
+    }
+    #About,
+  #Skills,
+  #Projects,
+  #Contact {
+    padding-top: 52px !important;
   }
+  }
+  @media screen and (max-width: 1290px) {
+    #About,
+  #Skills,
+  #Projects,
+  #Contact {
+    padding-top: 350px;
+  }
+  }
+  @media screen and (max-width: 726px) {
+    #Projects {
+    padding-top: 1230px;
+  }
+  .cardmargin {
+    margin: 0px;
+}
+}
+@media screen and (max-width: 991px) {
+.cardmargin {
+  margin: 29px;
+  align-items: center;
+}
+}
