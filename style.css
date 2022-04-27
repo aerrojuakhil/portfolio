@@ -157,6 +157,9 @@ body {
       margin-bottom: 12%;
       height: 1200px;
     }
+    #Contact{
+      padding-top: 170px;
+    }
     .row{
       width: 90vw;
     }
@@ -183,6 +186,7 @@ body {
     }
     #Contact{
       margin-left: 20px;
+      padding-top: 176px !important;
     }
     .logos img,a{
       margin-left: 37px;
@@ -219,8 +223,7 @@ body {
     }
     #About,
   #Skills,
-  #Projects,
-  #Contact {
+  #Projects {
     padding-top: 52px !important;
   }
   }
