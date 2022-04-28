@@ -23,7 +23,9 @@ body {
     color: white;
     font-weight: bold;
   }
-  
+  #Skills{
+    text-align: center;
+  }
   .centered {
     font-size: 4vw;
   }
@@ -165,6 +167,9 @@ body {
     }
     h2{
       margin-left: 20px;
+    }
+    #Skills{
+      text-align: center;
     }
     #Projects{
       margin-left: 20px !important;
