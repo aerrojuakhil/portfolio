@@ -8,7 +8,6 @@ body {
   img {
     display: unset;
   }
-  
   .thumbnail {
     position: relative;
     display: inline-block;
@@ -29,12 +28,13 @@ body {
   .centered {
     font-size: 4vw;
   }
-  
+  #Skills{
+    padding-top: 250px;
+  }
   #About,
-  #Skills,
   #Projects,
   #Contact {
-    padding-top: 60px;
+    padding-top: 100px;
   }
   #contactlist a{
     text-decoration: none;
@@ -253,4 +253,46 @@ body {
   margin: 29px;
   align-items: center;
 }
+}
+.imageedit{
+    width: 85%;
+    height: 90%;
+    padding-right: 0px;
+    margin-top: 35px;
+    
+}
+.edit{
+    padding-top: 75px;
+    font-size: 40px;
+    padding-left: 0px;
+    font-family: 'Dancing Script', cursive;
+}
+@media screen and (max-width: 480px) {
+    .edit{
+        padding-top: 32px;
+        padding-left: 15px;
+        font-size: 25px !important;
+    }
+    .imageedit{
+      width: 58% !important;
+      margin-left: 37px;
+    }
+    #Skills{
+      padding-top: 153px !important;
+      margin: 0px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .imageedit{
+        width: 58% !important;
+        height: 87%; 
+    }
+}
+@media screen and (max-width: 1286px) {
+    .imageedit{
+        width: 100%;
+    }
+    .edit{
+      font-size: 35px;
+    }
 }
