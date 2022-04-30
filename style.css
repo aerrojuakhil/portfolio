@@ -170,6 +170,7 @@ body {
     }
     #Skills{
       text-align: center;
+      margin: 0px;
     }
     #Projects{
       margin-left: 20px !important;
@@ -269,6 +270,7 @@ body {
 #item2{
   font-size: 40px;
   font-family: 'Dancing Script', cursive;
+  margin-left: 20px;
 }
 @media screen and (max-width: 480px) {
   #item1{
@@ -276,6 +278,10 @@ body {
     height: 170px;
   }
   #item2{
-    font-size: 35px;
+    font-size: 25px;
+    margin-top: -240px;
+  }
+  .container-me{
+    margin-top: -120px;
   }
 }
